@@ -8,7 +8,7 @@ trigger:
     paths:
         - /tencent
 domains:
-    - GeneratedDomain
+    - test
 execution:
     timeout: 10s
     memory: 10MB
