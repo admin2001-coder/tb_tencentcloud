@@ -1,0 +1,15 @@
+id: QmW3Wj6rG12xzQbYCtASCy6PNGJQDZCJDQaD4qmXtx8Dth
+description: ""
+tags: []
+match: users
+useRegex: false
+encryption:
+    type: AES512
+    key: password
+access:
+    network: all
+replicas:
+    min: 2
+    max: 10
+storage:
+    size: 5GB
