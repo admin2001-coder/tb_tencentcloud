@@ -1,0 +1,15 @@
+id: QmUXBTQ5z8ynjPcg13WXnDVuRDa1ojCmV8urvNQUSxEcWY
+description: Returns pong to a ping over http
+tags: []
+source: .
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /tencent
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: ping
