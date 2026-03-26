@@ -1,0 +1,15 @@
+id: QmRmZeJXVh9jHFL4fNgmLEg36UBoHGBqt8r7aYeezGDtgD
+description: ssr
+tags: []
+source: .
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /ping
+domains:
+    - test
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: ping
