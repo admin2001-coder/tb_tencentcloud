@@ -9,6 +9,7 @@ trigger:
         - /ping
 domains:
     - test
+    - GeneratedDomain
 execution:
     timeout: 10s
     memory: 10MB
