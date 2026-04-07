@@ -1,0 +1,15 @@
+id: QmVA6QMCsAkSF89m43eC1r1yhovDZiz6B8xsf5otpj4wcZ
+description: Returns pong to a ping over http
+tags: []
+source: .
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /chat
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: ping
